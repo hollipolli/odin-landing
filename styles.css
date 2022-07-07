@@ -1,0 +1,35 @@
+*{
+    border: 1px solid;
+}
+html, body
+{
+    margin: 0px; padding: 0px
+}
+.header {
+    background-color: #1F2937;
+}
+.htop, .hlinks{
+    display: flex;
+}
+.logo{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+.htop.hlinks, .htop.logo{
+    align-items: center;
+    border-color: red;
+}
+.hlinks{
+    margin-left:auto;
+    gap: 8px;
+    padding: 0px;
+}
+.himg{
+    width: 200px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
