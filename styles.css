@@ -6,7 +6,7 @@ html, body
 .header {
     background-color: #1F2937;
 }
-.htop, .hlinks, .hcontent, .himg, .himgcontainer{
+.htop, .hlinks, .hcontent, .himg, .himgcontainer, .htext, .hhero, .hpara{
     display: flex;
 }
 .logo{
@@ -23,29 +23,65 @@ html, body
     padding: 0px;
 }
 .hcontent{
+    padding: 20vh;
     align-items: center;
     justify-content: space-around;
 }
 .htext, .himgcontainer{
     flex: 1;
+    margin: 0px;
+}
+.htext{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
 }
 .hhero{
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0px;
 }
 .hpara{
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
 }
 .himgcontainer{
     justify-content: center;
 }
 .himg{
-    width: 300px;
+    width: 100%;
+    height: 50%;
+    max-width: 300px;
+    max-height: 150px;
+}
+.icontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+
+}
+.icontainer{
+    max-width: 150px;
+    text-align: center;
+}
+.ibox{
+    border: 2px solid #3d98bf;
+    border-radius: 10px;
+    width: auto;
     height: 150px;
 }
 a{
     text-decoration: none;
     color: #E5E7EB;
+}
+.infotitle{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding: 10vh;
 }
