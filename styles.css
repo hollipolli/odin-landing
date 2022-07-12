@@ -78,9 +78,31 @@ html, body
     width: auto;
     height: 150px;
 }
+.info{
+    padding-bottom: 60px;
+}
 a{
     text-decoration: none;
     color: #E5E7EB;
+}
+.inspire{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20vh;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 50;
+    max-width: 200vh;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
 }
 .infotitle{
     font-size: 36px;
