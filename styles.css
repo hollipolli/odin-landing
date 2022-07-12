@@ -138,6 +138,17 @@ a{
 .csub{
     font-size: 16px;
 }
+.hbutton{
+    display: flex;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
 .cbutton {
     display: flex;
     padding: 5px;
